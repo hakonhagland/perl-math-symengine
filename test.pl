@@ -3,15 +3,11 @@
 use feature qw(say);
 use strict;
 use warnings;
-use ExtUtils::testlib;
 use Math::SymEngine;
 use Package::Alias 'Sym' => 'Math::SymEngine';
-use Data::Printer;
-use Devel::GDB::Dump;
 
 my $x = Sym::sym("x");
 my $A = Sym::DenseMatrix->new(2,2);
-
 $A->set(0,0, Sym::cos($x));
 $A->set(0,1, Sym::mul(Sym::integer(-1), Sym::sin($x)));
 $A->set(1,0, Sym::sin($x));

@@ -46,8 +46,6 @@ IV get_hash_iv(HV *hash, const char *key)
     if (hv_exists_ent (hash, key_sv, 0)) {
         HE *he = hv_fetch_ent (hash, key_sv, 0, 0);
         SV *val = HeVAL (he);
-        STRLEN val_length;
-        char * val_pv = SvPV(val, val_length);
         if (SvIOK (val)) {
             value = SvIV(val);
         }
