@@ -8,7 +8,10 @@ extutils_cxx {
 WriteMakefile(
   NAME          => 'Math::SymEngine',
   VERSION_FROM  => 'lib/Math/SymEngine.pm',
-  PREREQ_PM     => { 'ExtUtils::MakeMaker' => '7.12' },
+  PREREQ_PM     => {
+      'ExtUtils::CXX' => 0,
+      'ExtUtils::MakeMaker' => '7.12',
+  },
   ABSTRACT_FROM => 'lib/Math/SymEngine.pm',
   AUTHOR        => 'Håkon Hægland <hakon.hagland@gmail.com>',
   OPTIMIZE      => '-g -std=c++17',

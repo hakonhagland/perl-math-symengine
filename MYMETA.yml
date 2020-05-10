@@ -1,0 +1,24 @@
+---
+abstract: 'Short description of Math::SymEngine'
+author:
+  - 'Håkon Hægland <hakon.hagland@gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 7.34, CPAN::Meta::Converter version 2.150010'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Math-SymEngine
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  ExtUtils::CXX: '0'
+  ExtUtils::MakeMaker: '7.12'
+version: 0.01
+x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
