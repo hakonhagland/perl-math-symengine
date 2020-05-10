@@ -1,10 +1,14 @@
 # perl-math-symengine
 
+To install the module:
+
 ## Install symengine C++ library
 
-On Linux you can do:
+On Linux (tested on Ubuntu 20.04) you can do (installs
+`libsymengine.so` in directory `/opt/symengine`) :
 ```
-git clone git@github.com:symengine/symengine.git
+sudo apt-get install -y cmake g++ git libgmp-dev
+git clone https://github.com/symengine/symengine.git
 cd symengine
 mkdir build
 cd build
