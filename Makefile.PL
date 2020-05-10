@@ -11,6 +11,7 @@ WriteMakefile(
   PREREQ_PM     => {
       'ExtUtils::CXX' => 0,
       'ExtUtils::MakeMaker' => '7.12',
+      'Package::Alias' => 0,
   },
   ABSTRACT_FROM => 'lib/Math/SymEngine.pm',
   AUTHOR        => 'Håkon Hægland <hakon.hagland@gmail.com>',

@@ -33,7 +33,8 @@
       "runtime" : {
          "requires" : {
             "ExtUtils::CXX" : "0",
-            "ExtUtils::MakeMaker" : "7.12"
+            "ExtUtils::MakeMaker" : "7.12",
+            "Package::Alias" : "0"
          }
       }
    },

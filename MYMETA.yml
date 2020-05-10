@@ -20,5 +20,6 @@ no_index:
 requires:
   ExtUtils::CXX: '0'
   ExtUtils::MakeMaker: '7.12'
+  Package::Alias: '0'
 version: 0.01
 x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
