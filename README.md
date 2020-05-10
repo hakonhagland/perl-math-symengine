@@ -7,8 +7,7 @@ the [symengine](https://github.com/symengine/symengine) C++ library.
 
 ### Install symengine C++ library
 
-On Linux (tested on Ubuntu 20.04) you can do (installs
-`libsymengine.so` in directory `/opt/symengine`) :
+(Tested on Ubuntu 20.04). Install `libsymengine.so` into directory `/opt/symengine`:
 ```
 sudo apt-get install -y cmake g++ git libgmp-dev
 git clone https://github.com/symengine/symengine.git
@@ -22,8 +21,7 @@ sudo make install
 
 ### Install Math::SymEngine Perl module
 
-To install the module (tested on Ubuntu 20.04 with `perlbrew` and
-`perl` version 5.30):
+(Tested on Ubuntu 20.04 with `perlbrew` and `perl` version 5.30)
 
 ```
 git clone https://github.com/hakonhagland/perl-math-symengine.git
@@ -33,7 +31,7 @@ cpanm .
 
 ## Run the test script
 
-The following example `test.pl` computes the product of two 2x2 matrices:
+The following example Perl script `test.pl` computes the product of two 2x2 matrices:
 ```
 #! /usr/bin/env perl
 use feature qw(say);
